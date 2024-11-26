@@ -1,4 +1,4 @@
-It is the candidate's document submission form where the candidate fills all his/her personal
+This is a candidate's document submission form where the candidate fills all his/her personal
 details and submit for verification.
 Kindly follow the below task notes.
 
@@ -17,3 +17,13 @@ Kindly follow the below task notes.
    ● Backend Framework: ExpressJs
    ● Database: MongoDB
    ● Frontend: ReactJs
+
+   CAUTION
+
+   If sameAsResidential field is set to true, you must provide a value for permanentAddress to avoid crashing the server
+
+   REQUIREMENT/DEPENDENCIES
+   Express
+   mongoose
+   dotenv
+   nodemon(optional for development)
